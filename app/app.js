@@ -41,8 +41,8 @@ boot();
 
 /**
   Uncomment when you create templates
+  require("./templates");
 */
-require("./templates");
 
 /**
   Uncomment when you create controllers

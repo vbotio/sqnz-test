@@ -9,11 +9,5 @@
  */
 var routeMap;
 
-routeMap = [
-  {
-    url: '/',
-    templateUrl: "templates/welcome.html",
-    controller: ""
-  }
-];
+routeMap = [];
 module.exports = routeMap;
