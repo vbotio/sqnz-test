@@ -8,7 +8,8 @@
   },
   "dependencies": {},
   "ng-addons": {
-    "ng-core-addons": "./node_modules/ng-core-addons"
+    "ng-core-addons": "ng-core-addons",
+    "ngcli-rework-css": "ngcli-rework-css"
   },
   "devDependencies": {
     "bower-webpack-plugin": "^0.1.5",
@@ -19,6 +20,7 @@
     "ng-annotate-webpack-plugin": "^0.1.2",
     "ng-cli-transformer": "*",
     "ng-core-addons": "*",
+    "ngcli-rework-css": "*",
     "ngcli-task-runner": "*",
     "webpack": "^1.5.1"
   }
