@@ -17,9 +17,9 @@
     "karma-mocha-reporter": "^0.3.1",
     "karma-webpack": "^1.5.0",
     "ng-annotate-webpack-plugin": "^0.1.2",
-    "ng-cli-transformer": "^1.0.0",
-    "ng-core-addons": "^0.0.3",
-    "ngcli-task-runner": "^1.0.0",
+    "ng-cli-transformer": "*",
+    "ng-core-addons": "*",
+    "ngcli-task-runner": "*",
     "webpack": "^1.5.1"
   }
 }
