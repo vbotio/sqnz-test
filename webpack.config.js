@@ -21,7 +21,7 @@ module.exports = {
   module: {
     loaders: [
         {
-          test: /\.js$/,
+          test: [/.*\/core\/.*\.js$/,/.*\/app\/.*\.js$/],
           loader: "ng-cli-transformer"
         }
     ]
