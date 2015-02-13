@@ -10,7 +10,7 @@ var bower = new BowerWebpackPlugin({
   modulesDirectories: ["bower_components"],
   manifestFiles:      "bower.json",
   includes:           /.*/,
-  excludes:           []
+  excludes:           [/.*\.css/]
 });
 
 module.exports = {

@@ -4,9 +4,9 @@
   "description": "",
   "dependencies": {
     "angular-deferred-bootstrap": "~0.1.5",
-    "angular-mocks": "~1.3.5",
-    "angular": "~1.3.5",
-    "angular-route": "~1.3.6"
+    "angular-mocks": "latest",
+    "angular": "latest",
+    "angular-route": "latest"
   },
   "ignore": [
     "**/.*",

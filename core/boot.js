@@ -56,7 +56,7 @@ boot = function(dependencies) {
   injectorDependencies = ["{@= app_name @}"];
 
   // Continue if initializers length is greater then 0
-  if (Object.keys(initializers).length > 0) {
+  if (typeof(initializers) !== 'undefined' && Object.keys(initializers).length > 0) {
 
     objectKeys = Object.keys(initializers);
 
