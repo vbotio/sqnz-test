@@ -1,0 +1,25 @@
+table {
+	border-collapse: collapse;
+	border:1px solid black;
+	font-family: 'open sans';
+	font-size:13px;
+	th {
+		border:1px solid black;
+		padding:4px;
+	}
+	thead {
+		th {
+			font-weight: bolder;
+			text-transform: capitalize;
+		}
+	}
+	tbody {
+		th {
+			font-weight: lighter;
+			i {
+				cursor: pointer;
+			}
+		}	
+	}
+	
+}

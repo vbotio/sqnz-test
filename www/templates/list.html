@@ -1,5 +1,28 @@
-<ul>
-	<li ng-repeat="client in clients">
-		{{ client.id }} {{ client.nome }} {{ client.email }}
-	</li>
-</ul>
+<table>
+	<thead>
+		<tr>
+			<th>id</th>
+			<th>nome</th>
+			<th>email</th>
+			<th>endereço</th>
+			<th>bairro</th>
+			<th>cidade</th>
+			<th>estado</th>
+			<th>telefone</th>
+			<th></th>	
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="client in clients">
+			<th> {{ client.id }}</th>
+			<th> {{ client.nome }} </th>
+			<th> {{ client.email }} </th>
+			<th> {{ client.endereco }} </th>
+			<th> {{ client.bairro }} </th>
+			<th> {{ client.cidade }} </th>
+			<th> {{ client.estado }} </th>
+			<th> {{ client.telefone }} </th>
+			<th><i class="fa fa-pencil-square-o" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i></th>	
+		</tr>
+	</tbody>
+</table>
