@@ -48,7 +48,7 @@ gulp.task('install', ['git-check'], function() {
 gulp.task('git-check', function(done) {
     if (!sh.which('git')) {
         console.log(
-            '  ' + gutil.colors.red('Git nao instalado.')
+             gutil.colors.red('Git nao instalado.'), 
                 '\n  Git, é necessário.',
                 '\n  Download git aqui:', gutil.colors.cyan('http://git-scm.com/downloads') + '.',
                 '\n  qdo estiver instalado, run \'' + gutil.colors.cyan('gulp install') + '\' novamente.'
