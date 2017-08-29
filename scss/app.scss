@@ -1,25 +1,43 @@
-table {
-	border-collapse: collapse;
-	border:1px solid black;
-	font-family: 'open sans';
-	font-size:13px;
-	th {
-		border:1px solid black;
-		padding:4px;
-	}
-	thead {
-		th {
-			font-weight: bolder;
-			text-transform: capitalize;
+@import 'reset';
+body {
+	width:100%;
+	.main {
+		width:100%;
+		display: flex;
+		justify-content:center;
+		padding: 0 15px;
+		flex-wrap:wrap;
+		ul {
+			width:100%;
+			display: flex;
+			justify-content:space-between;
+			list-style: none;
+			margin-bottom: 10px;
 		}
-	}
-	tbody {
-		th {
-			font-weight: lighter;
-			i {
-				cursor: pointer;
+		table {
+			border-collapse: collapse;
+			border:1px solid black;
+			font-family: 'open sans';
+			font-size:13px;
+			width:100%;
+			th {
+				border:1px solid black;
+				padding:4px;
+			}
+			thead {
+				th {
+					font-weight: bolder;
+					text-transform: capitalize;
+				}
+			}
+			tbody {
+				th {
+					font-weight: lighter;
+					i {
+						cursor: pointer;
+					}
+				}	
 			}
 		}	
-	}
-	
+	}	
 }
